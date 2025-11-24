@@ -29,4 +29,4 @@ st.data_editor(df2)              # Editable table
 st.table(df2)                    # Static table
 
 # Customize columns directly in the dataframe display
-st.dataframe(df.style.format({'Sales': '${:,.0f}', 'Customers': '{:,.0f}'}))
+st.dataframe(df2.style.format({'Sales': '${:,.0f}', 'Customers': '{:,.0f}'}))
